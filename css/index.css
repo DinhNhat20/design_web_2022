@@ -1,0 +1,928 @@
+*{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+}
+
+.sub{
+    text-align: center;
+}
+
+.sub i{
+    color: white;
+    font-size: 2rem;
+    padding: 10px 50px;
+    line-height: 45px;
+}
+
+.header-sub{
+    display: flex;
+    background-color: #00589d;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.flex{
+    display: flex;
+}
+
+ul.menu{
+    list-style-type: none;
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
+    background-color: white;
+}
+ul.menu > li{
+    border-left: 1px solid #00589d;
+    min-width: 9.375rem;
+    text-align: center;
+}
+ul.menu > li > a{
+    display: block;
+    font-size: 1.2rem;
+    padding: 1.5rem 3rem;
+    text-decoration: none;
+    color: #00589d;
+}
+ul.menu > li > a:hover{
+    background-color: #659bd3;
+    color: white;
+}
+div.nav-bars{
+    margin-top: 1.5rem;
+    display: none;
+}
+.search{
+    text-align: center;
+    line-height: 2.7rem;    
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.search input{
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+.search i{
+    display: block;
+    font-size: 1.5rem;
+    color: white;
+    margin: auto 0.5rem;
+    
+}
+.sign-in{
+    line-height: 45px;
+}
+.sign-in a{
+    display: block;
+    color: #00589d;
+    background-color: white;
+    font-size: 1.2rem;
+    padding: 1px 10px;
+    margin-top: 9px;
+    border-radius: 1.5rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+.bg{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 100%;
+    background-image: url(./Bg_C++.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content{
+    background-color: white;
+    margin: 0rem 3.6rem 2rem;
+    border-radius: 1.5rem;
+}
+div.intro-c{
+    width: 100%;
+}
+.intro-c{
+    position: relative;
+    padding: 2rem;
+}
+div.intro-c-left{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+div.intro-c-right{
+    border-left: 5px solid purple;
+    padding-left: 10px;
+}
+div.intro-c img{
+    width: 100%;
+}
+div.intro-c li{
+    line-height: 50px;
+}
+div.intro-c h1{
+    font-size: 2rem;
+    display: block;
+    color: purple;
+    margin-bottom: 10px;
+}
+div.intro-c h3{
+    font-size: 1.5rem;
+    color: purple;
+}
+
+div.item-onclick{
+    width: 100%;
+    margin-top: 6rem;
+}
+div.item-onclick{
+    animation: doianh 5s ease infinite;
+}
+div.item-onclick img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 1.5rem;
+}
+div.thumb{
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+div.thumb > div{
+    width: 25%;
+}
+@keyframes doianh{
+    0%{image: url(./images/code5.jpg);}
+    50%{image: url(./images/C++5.png);}
+    100%{image: url(./images/code4.jpg);}
+}
+.source{
+    margin-top: 50px;
+    
+}
+div.source{
+    margin: 2.5rem 2rem 0rem;
+    border-radius: 1.5rem;
+}
+.source #header-source h1{
+    font-size: 1.5rem;
+    color: white;
+    display: block;
+    padding: 20px 0px;
+    margin: 0rem 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #00589d;
+    border-radius: 1.5rem;
+}
+@keyframes doimau{
+    0% { background-color:#00589d; }
+    33% { background-color: purple; }
+    66% { background-color: red }
+    100% { background-color: orange; }
+}
+div#header-source h1{
+    animation: doimau 1s ease infinite;
+}
+.content-source{
+    margin-top: 2.5rem;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.bg-content{
+    width: 30%;
+    height: 40rem;
+    padding: 50px;
+    margin: auto;
+    background-color: white;
+    border-radius: 1.5rem;
+}
+div.content-sources{
+    width: 340px;
+    height: 545px;
+    background-color: purple; 
+    border: 3px solid white;
+    color: white; 
+    border-radius: 1.5rem;
+    margin: auto;
+    padding: 0.8rem;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s;
+}
+div.content-sources:hover{
+    transform: scale(1.1, 1.1);
+}
+div.content-sources:hover a{
+    transform: scale(1.1, 1.1);
+}
+div.content-source h1{
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+div.content-source h3{
+    line-height: 30px;
+}
+div.content-source a{
+    width: 200px;
+    display: block;
+    background-color: white;
+    color: purple;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 3px solid;
+    margin: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 1.5rem;
+}
+
+div.bg-content:last-child{
+    background-color: white;
+    margin-top: 0rem;
+    padding-top: 2rem;
+}
+.scroll{
+    overflow: auto;
+    height: 28rem;
+    color: purple;
+}
+div.extra i{
+    color: purple;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+div.extra h1{
+    color: purple;
+    font-size: 1.5rem;
+    display: block;
+    margin: auto 1rem;
+}
+div.extra1 input{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    border: 1px solid purple;
+    margin: 0.5rem 0rem;
+}
+div.extra1 i{
+    display: block;
+    font-size: 1.5rem;
+    color: purple;
+    margin: auto 0.5rem;
+}
+
+div.creat-main{
+    margin: 0 4rem;
+}
+div.creat{
+    width: 40%;
+    margin-left: 2rem;
+    background-color: white;
+    border-radius: 1.5rem;
+}
+
+div.creat h1{
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1.5rem;
+}
+div.creat p{
+    font-size: 1.5rem;
+}
+div.creats{
+    position: relative;
+}
+div.creat form{
+    line-height: 35px;
+    display: block;
+    padding: 20px;
+    font-size: 2rem;
+}
+div.creat input{
+    border: 1px solid black;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 0.3rem;
+}   
+div.creat button{
+    position: absolute;
+    border: 1px solid black;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    right: 20px;
+    bottom: 15px;
+    border-radius: 1.5rem;
+}
+.creats #last-child-input{
+    margin-bottom: 50px;
+}
+
+div.side-bar{
+    width: 60%;
+    border-radius: 1.5rem;
+    padding-top: 4rem;
+}
+div.item{
+    justify-content: space-around;
+}
+div.side-bar img{
+    width: 50%;
+    padding: 0rem 0.5rem 1rem;
+}
+div.item img{
+    border-radius: 2rem; 
+}
+div.item1{
+    margin-top: 4rem;
+}
+div.foot{
+    width: 100%;
+    background-image: linear-gradient(#659bd3, rgb(75, 75, 235), #00589d);
+    color: lightgray;
+}
+.foot1{
+    margin: auto 0;
+    margin-left: 5rem;
+    width: 10%;
+}
+.foot1 img{
+    width: 70%;
+
+}
+.foot2{
+    width: 50%;
+    padding-left: 2rem;
+}
+div.foot h1{
+    display: block;
+    padding: 20px 0px 10px;
+    text-transform: uppercase;
+}
+div.foot p{
+    line-height: 30px;
+}
+div.foot2 div{
+    margin-bottom: 1rem;
+}
+div.foot3{
+    width: 30%;
+}
+.nav-bars i{
+    font-size: 1.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.nav-bars{
+    width: 28px;
+    height: 28px;
+    margin-left: 8px;
+    color: black;
+    display: none;
+}
+.search_mobile i{
+    position: absolute;
+    right: 3.5rem;
+    font-size: 1.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    display: none;
+}  
+.bell_mobile i{
+    position: absolute;
+    right: 1rem;
+    font-size: 1.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    display: none;
+} 
+.nav_overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 1;
+    animation: fadeIn linear 0.3s;
+}
+.nav_mobile{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: white;
+    z-index: 1;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform linear 0.2s, opacity linear 0.2s;
+} 
+.nav_mobile_list{
+    margin-top: 24px;  
+    left: 0; 
+}
+.nav_mobile_list li{
+    list-style-type: none;
+}
+.nav_mobile_list a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px 0;
+}
+.nav_mobile-close{
+    font-size: 1.4rem;
+    color: #666;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.nav_input:checked ~ .nav_overlay{
+    display: block;
+}
+.nav_input:checked ~ .nav_mobile{
+    transform: translateX(0%);
+    opacity: 1;
+}
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 900px){
+    div.intro-c-right h1{
+        font-size: 0.8rem;
+    }
+    div.intro-c-right h3{
+        font-size: 0.6rem;
+        line-height: 12px;
+    }
+    
+    .sub{
+        text-align: center;
+    }
+    
+    .sub i{
+        color: white;
+        font-size: 1rem;
+        padding: 0.5rem 0.5rem;
+        line-height: 3rem;
+    }
+    
+    .header-sub{
+        display: flex;
+        background-color: #00589d;
+        justify-content: space-between;
+        height: 4rem;
+    }
+    .search{
+        text-align: center;
+        line-height: 2.7rem;    
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .search input{
+        width: 10rem;
+        height: 2rem;
+        border-radius: 1rem;
+        font-size: 1.2rem;
+        padding-left: 1rem;
+    }
+    .search i{
+        display: block;
+        font-size: 0.8rem;
+        color: white;
+        margin: auto 0rem;
+        margin-left: 0.1rem;
+        margin-right: 0.4rem;
+        
+    }
+    .sign-in{
+        line-height: 2rem;
+        margin-top: 0.6rem;
+    }
+    .sign-in a{
+        display: block;
+        color: #00589d;
+        background-color: white;
+        font-size: 1.2rem;
+        padding: 1px 10px;
+        margin-top: 6px;
+        border-radius: 1.5rem;
+        margin-right: 1rem;
+        text-decoration: none;
+    }
+    div.bg-content{
+        margin-bottom: 3rem;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+    div.bg-content:last-child{
+        margin-bottom: 0rem;
+    }
+    .content{
+        margin: 0rem 3rem 2rem;
+        border-radius: 1.5rem;
+    }
+
+    .source #header-source h1{
+        margin: 0rem 1rem;
+    }
+    div.bg-content{
+        width: 93%;
+    }
+    div.creat-main{
+        margin-bottom: 2.5rem;
+    }
+    div.creat{
+        background-color: #659bd3;
+    }
+    div.creats h1{
+        color: white;
+    }
+    div.creats{
+        padding-bottom: 2rem;
+    }
+    div.creats form{
+        margin: 1rem 7rem;
+        border: 1px solid black;
+        border-radius: 2rem;
+        line-height: 30px;
+        display: block;
+        padding: 20px;
+        font-size: 1.5rem;
+        background-color: white;
+    }
+    div.creats button{
+        right: 8rem;
+        bottom: 4rem;
+    }
+    div.creat-main{
+        display: block;
+    }
+    div.creat-main{
+        margin-top: 0rem;
+    }
+    div.side-bar{
+        width: 100%;
+        padding-top: 0rem;
+        margin-bottom: 5rem;
+    }
+    div.item{
+        margin-top: 2rem;
+    }
+    div.item1{
+        margin-top: 0;
+    }
+    div.creat{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .menu_pc{
+        display: none;
+    }
+    .nav-bars{
+        display: block;
+    }
+    div.nav{
+        background-color: lightgray;
+        height: 4rem;
+    }
+    .nav_mobile{
+        width: 400px;
+    }
+    .nav_mobile-close i{
+        font-size: 2rem;
+    }
+    ul.nav_mobile_list a{
+        font-size: 2rem;
+    }
+    ul.nav_mobile_list i{
+        font-size: 2rem;
+    }
+    ul.nav_mobile_list li{
+        margin-top: 1rem;
+    }
+    .nav-bars i{
+        font-size: 2.3rem;
+    }
+    .nav_bell_search i{
+        font-size: 2.3rem;
+    }
+    .search_mobile i{
+        margin-right: 1.5rem;
+    }
+    .bell_mobile i{
+        display: block;
+        cursor: pointer;
+    }
+    .search_mobile i{
+        display: block;
+        cursor: pointer;
+    }
+    .header-sub{
+        display: none;
+    }
+    div.foot h1{
+        font-size: 0.8rem;
+    }
+    div.foot p{
+        font-size: 0.8rem;
+    }
+    div.foot2 h1{
+        font-size: 0.9rem;
+    }
+    div.foot2 i{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    div.intro-c{
+        margin-top: 2.5rem;
+    }
+    div.intro-c-right h1{
+        font-size: 0.8rem;
+    }
+    div.intro-c-right h3{
+        font-size: 0.7rem;
+        line-height: 0.8rem;
+    }
+    
+    .sub{
+        text-align: center;
+    }
+    
+    .sub i{
+        color: white;
+        font-size: 1rem;
+        padding: 0.5rem 0.5rem;
+        line-height: 3rem;
+    }
+    
+    .header-sub{
+        display: flex;
+        background-color: #00589d;
+        justify-content: space-between;
+        height: 4rem;
+    }
+    .search{
+        text-align: center;
+        line-height: 2.7rem;    
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .search input{
+        width: 10rem;
+        height: 2rem;
+        border-radius: 1rem;
+        font-size: 1.2rem;
+        padding-left: 1rem;
+    }
+    .search i{
+        display: block;
+        font-size: 0.8rem;
+        color: white;
+        margin: auto 0rem;
+        margin-left: 0.1rem;
+        margin-right: 0.4rem;
+        
+    }
+    .sign-in{
+        line-height: 2rem;
+        margin-top: 0.6rem;
+    }
+    .sign-in a{
+        display: block;
+        color: #00589d;
+        background-color: white;
+        font-size: 1.2rem;
+        padding: 1px 10px;
+        margin-top: 6px;
+        border-radius: 1.5rem;
+        margin-right: 1rem;
+        text-decoration: none;
+    }
+    div.content-sources:hover{
+        transform: scale(1, 1);
+    }
+    div.bg-content{
+        width: 600px;
+        margin-bottom: 1.5rem;
+        height: auto;
+    }
+    div.content-sources{
+        width: 100%;
+        height: auto;
+    }
+    div.content-sources h1{
+        font-size: 1.2rem;
+    }
+    div.content-sources h3{
+        font-size: 0.8rem;
+    }
+    div.content-source a{
+        width: 160px;
+        font-size: 1.2rem;
+    }
+    div.item-onclick{
+        margin: 2rem 0;
+    }
+    div.thumb{
+        margin-bottom: 2rem;
+    }
+    div.extra1 input{
+        width: 16rem;
+        height: 2rem;
+        border-radius: 30px;
+        font-size: 1rem;
+        padding-left: 1rem;
+        border: 1px solid purple;
+        margin: 0.7rem 0rem;
+    }
+    div.extra1 i{
+        display: none;
+    }
+    div.creat{
+        background-color: white;
+    }
+    div.creats h1{
+        color: black;
+    }
+    
+    div.creats form{
+        margin: 1rem 2rem;
+        border: 1px solid black;
+        border-radius: 2rem;
+        line-height: 30px;
+        display: block;
+        padding: 20px;
+        font-size: 1.5rem;
+        background-color: white;
+    }
+    div.creats button{
+        right: 3rem;
+        bottom: 4rem;
+    }
+
+    div.bg-content:last-child{
+        margin-bottom: 0rem;
+    }
+    .content{
+        margin: 0rem 3rem 2rem;
+        border-radius: 1.5rem;
+    }
+    .source #header-source h1{
+        margin: 0rem 1rem;
+    }
+    div.bg-content{
+        width: 93%;
+    }
+    
+    div.creat-main{
+        display: block;
+    }
+    div.creat-main{
+        margin-top: 0rem;
+    }
+    div.side-bar{
+        display: none;
+    }
+    div.item1{
+        margin-top: 0;
+    }
+    div.creat{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #659bd3;
+        margin-bottom: 2.5rem;
+    }
+    div.creats form{
+        border-radius: 1rem;
+        margin-bottom: 0;
+    }
+    div.creats h1{
+        font-size: 1.3rem;
+        color: white;
+    }
+    div.creat input{
+        display: block;
+        border-radius: 0.3rem;
+    }
+    div.creat button{
+        position: absolute;
+        border: 1px solid black;
+        padding: 0.3rem;
+        font-size: 1rem;
+        right: 50px;
+        bottom: 50px;
+        border-radius: 1rem;
+    }
+    div.creats p{
+        font-size: 1.2rem;
+    }
+    .nav_mobile{
+        width: 200px;
+    }
+    .nav_mobile-close i{
+        font-size: 1.2rem;
+    }
+    ul.nav_mobile_list a{
+        font-size: 1rem;
+    }
+    ul.nav_mobile_list i{
+        font-size: 1rem;
+    }
+    ul.nav_mobile_list li{
+        margin-top: 0.5rem;
+    }
+    .nav-bars i{
+        font-size: 1.5rem;
+    }
+    .nav_bell_search i{
+        font-size: 1.5rem;
+    }
+    .search_mobile i{
+        margin-right: 1.2rem;
+    }
+    .menu_pc{
+        display: none;
+    }
+    .nav-bars{
+        display: block;
+    }
+    div.nav{
+        background-color: lightgray;
+        height: 3rem;
+    }
+    .bell_mobile i{
+        display: block;
+        cursor: pointer;
+    }
+    .search_mobile i{
+        display: block;
+        cursor: pointer;
+    }
+    .header-sub{
+        display: none;
+    }
+    
+    div.foot{
+        width: 100%;
+        background-color: lightblue;
+    }
+    .foot1{
+        display: none;
+    }
+    div.foot2{
+        width: 90%;
+        padding-left: 2rem;
+    }
+    div.foot p{
+        line-height: 25px;
+    }
+    div.foot2 div{
+        margin-bottom: 1rem;
+    }
+}

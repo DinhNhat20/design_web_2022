@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="./images/ISO_C++_Logo.svg.png">
+<link rel="stylesheet" href="./css/index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<script src="./js/script.js"></script>
+<title>Introduce Grogramming</title>
+</head>
+<body>
+    <div>   
+        <header>
+            <div class="flex nav">
+                    <nav class="menu_pc">
+                        <ul class="menu">
+                            <li><a href="#"><i class="fa-solid fa-house"></i>  Trang chủ</a></li>
+                            <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></i>  Lộ trình</a></li>
+                            <li><a href="#"><i class="fa-solid fa-graduation-cap"></i>  Khóa học</a></li>
+                            <li><a href="blog.html"><i class="fa-solid fa-blog"></i>  Blog</a></li>
+                            <li><a href="#"><i class="fa-solid fa-person-chalkboard"></i>  Giảng viên</a></li>
+                            <li><a href="#"><i class="fa-solid fa-phone"></i></i>  Liên hệ</a></li>
+                        </ul>
+                    </nav>
+
+                    <label for="nav-mobile-input"  class="nav-bars">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <div class="nav_bell_search">
+                        <div class="search_mobile">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="bell_mobile">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                    </div>
+                    
+                
+                    <input type="checkbox" hidden class="nav_input" id="nav-mobile-input">
+                    <label for="nav-mobile-input" class="nav_overlay"></label>
+
+                    <nav class="nav_mobile">
+                        <label for="nav-mobile-input" class="nav_mobile-close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+                        <ul class="nav_mobile_list">
+                            <li><a href="#"><i class="fa-solid fa-house"></i>  Trang chủ</a></li>
+                            <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></i>  Lộ trình</a></li>
+                            <li><a href="#"><i class="fa-solid fa-graduation-cap"></i>  Khóa học</a></li>
+                            <li><a href="#"><i class="fa-solid fa-blog"></i>  Blog</a></li>
+                            <li><a href="#"><i class="fa-solid fa-person-chalkboard"></i>  Giảng viên</a></li>
+                            <li><a href="#"><i class="fa-solid fa-phone"></i></i>  Liên hệ</a></li>
+                        </ul>
+                    </nav>
+            </div>
+           
+        
+            <div class="flex header-sub">
+                <div class="sub">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+        
+                <div class="flex search">
+                    <input type="text" placeholder="Tìm khiếm khóa học, bài viết, video,...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+        
+                <div class="sign-in">
+                    <a href="#"><i class="fa-solid fa-user"></i> Đăng nhập/Đăng kí</a>  
+                </div>
+            </div>
+        </header>
+        
+        <div class="bg">
+            <div class="content">
+                <div class="flex intro-c">
+                    <div class="intro-c-left">
+                        <img src="images/ISO_C++_Logo.svg.png" alt="C++">
+                    </div>
+                    <div class="intro-c-right">
+                        <h1>Tổng quan ngôn ngữ C++</h1> 
+                        <ul>
+                            <li><h3>Ngôn ngữ C++ được Bjarne Stroustrup phát triển từ ngôn ngữ C từ cuối thập niên 1970</h3></li>
+                            <li><h3>C++ là một phiên bản mở rộng của ngôn ngữ C, kết hợp tất cả các tính năng đã có của C</h3></li>
+                            <li><h3>C++ được coi như là ngôn ngữ bậc trung (middle-level), kết hợp các đặc tính và tính năng của ngôn ngữ bậc cao và bậc thấp</h3></li>
+                            <li><h3>C++ có thể dùng để lập trình nhúng, lập trình hệ thống hoặc những ứng dụng, game,...</h3></li>
+                            <li><h3>C++ là ngôn ngữ "đa hướng". Nghĩa là nó hướng cấu trúc giống C và có thêm một tính năng cực kỳ quan trọng đó là tính năng hướng đối tượng. Các bạn sẽ được học phần hướng đối tượng của C++ trong serial lập trình hướng đối tượng C++</h3></li>
+                            <li><h3>C++ là một trong những ngôn ngữ lập trình phổ biến nhất thế giới</h3></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="item-onclick">
+                <img src="./images/code5.jpg" id="mainShow" onclick="changeImageTime()" alt="1">
+                <div class="flex thumb">
+                    <div><img src="./images/C++5.png" onclick="changeImage(this)" alt="2"></div>
+                    <div><img src="./images/code4.jpg" onclick="changeImage(this)" alt="3"></div>
+                    <div><img src="./images/code5.jpg" onclick="changeImage(this)" alt="4"></div>
+                    <div><img src="./images/C++5.png" onclick="changeImage(this)" alt="5"></div>
+                    <div><img src="./images/code4.jpg" onclick="changeImage(this)" alt="6"></div>
+                </div>
+
+            </div>
+           
+            <div class="source">
+                <div id="header-source">
+                    <h1>Nội dung khóa học</h1>
+                </div>
+                <div class="flex content-source">
+                    <div class="bg-content">
+                        <div class="content-sources">
+                            <h1>C++ cơ bản</h1>
+                            <h3>Bài 1: giới thiệu ngôn ngữ lập trình C++</h3>
+                            <h3>Bài 2: Cài đặt môi trường lập trình C++</h3>
+                            <h3>Bài 3: Viết chương trình C++</h3>
+                            <h3>Bài 4: Kiến thức cơ bản về C++</h3>
+                            <h3>Bài 5: Nhập, xuất trong C++</h3>
+                            <h3>Bài 6: Toán tử trong C++</h3>
+                            <h3>Bài 7: Ký tự và số trong C++</h3>
+                            <h3>Bài 8: Biến trong C++</h3>
+                            <h3>Bài 9: Lệnh và điều kiện trong C++</h3>
+                            <h3>Bài 10: Vòng lặp trong C++</h3>
+                            <h3>Bài 11: Hàm trong C++</h3>
+                            <h3>Bài 12: Số trong C++</h3>
+                            <h3>Bài h3: Chuỗi trong C++</h3>
+                            <h3>Bài 14: Con trỏ trong C++</h3>
+                            <a href="#">Đăng kí ngay</a>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-content">
+                        <div class="content-sources">
+                            <h1>C++ nâng cao</h1>
+                            <h3>Bài 15: Kiểu cấu trúc trong C++</h3>
+                            <h3>Bài 16: String trong C++</h3>
+                            <h3>Bài 17: Mảng trong C++</h3>
+                            <h3>Bài 18: Vector trong C++</h3>
+                            <h3>Bài 19: Deque trong C++</h3>
+                            <h3>Bài 20: List trong C++</h3>
+                            <h3>Bài 21: Forward_list trong C++</h3>
+                            <h3>Bài 22: Set trong C++</h3>
+                            <h3>Bài 23: Multiset trong C++</h3>
+                            <h3>Bài 24: Map trong C++</h3>
+                            <h3>Bài 25: Multimap trong C++</h3>
+                            <h3>Bài 26: Unordered_map trong C++</h3>
+                            <h3>Bài 27: File trong C++</h3>
+                            <h3>Bài 28: Hướng đối tượng trong C++</h3>
+                            <a href="#">Đăng kí ngay</a>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-content">
+                        <div class="flex extra">
+                            <i class="fa-solid fa-list"></i>
+                            <h1>Danh sách bài học</h1>
+                        </div>
+                        <div class="flex extra1">
+                            <input type="text" placeholder="Tìm bài học...">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="scroll">
+                            <h3>01. giới thiệu ngôn ngữ lập trình C++</h3>
+                            <h3>02. Cài đặt môi trường lập trình C++</h3>
+                            <h3>03: Viết chương trình C++</h3>
+                            <h3>04. Kiến thức cơ bản về C++</h3>
+                            <h3>05. Nhập, xuất trong C++</h3>
+                            <h3>06. Toán tử trong C++</h3>
+                            <h3>07. Ký tự và số trong C++</h3>
+                            <h3>08. Biến trong C++</h3>
+                            <h3>09. Lệnh và điều kiện trong C++</h3>
+                            <h3>10. Vòng lặp trong C++</h3>
+                            <h3>11. Hàm trong C++</h3>
+                            <h3>12. Số trong C++</h3>
+                            <h3>13. Chuỗi trong C++</h3>
+                            <h3>14. Con trỏ trong C++</h3>
+                            <h3>15. Kiểu cấu trúc trong C++</h3>
+                            <h3>16. String trong C++</h3>
+                            <h3>17. Mảng trong C++</h3>
+                            <h3>18. Vector trong C++</h3>
+                            <h3>19. Deque trong C++</h3>
+                            <h3>20. List trong C++</h3>
+                            <h3>21. Forward_list trong C++</h3>
+                            <h3>22. Set trong C++</h3>
+                            <h3>23. Multiset trong C++</h3>
+                            <h3>24. Map trong C++</h3>
+                            <h3>25. Multimap trong C++</h3>
+                            <h3>26. Unordered_map trong C++</h3>
+                            <h3>27. File trong C++</h3>
+                            <h3>28. Hướng đối tượng trong C++</h3>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+
+            <div class="flex creat-main">
+                <div class="side-bar">
+                    <div class="item flex">
+                        <img src="./images/code1.jpg">
+                        <img src="./images/code4.jpg">
+                    </div>
+                    <div class="item item1 flex">
+                        <img src="./images/Bg_C++3.jpg">
+                        <img src="./images/code3.jpg">
+                    </div>
+                </div>
+
+                <div class="creat">
+                    <div class="creats">
+                        <h1>Đăng kí tài khoản</h1>
+                        <form>
+                            <p>Họ và tên</p>
+                            <input type="text" name="Họ và tên" placeholder="Họ và tên">
+                            <p>Tên Đăng Nhập</p>
+                            <input type="text" name="Tên Đăng Nhập" placeholder="Tên đăng nhập">
+                            <p>Mật khẩu</p>
+                            <input type="text" name="Mật khẩu" placeholder="Mật khẩu">
+                            <p>Nhập lại mật khẩu</p>
+                            <input type="text" name="Nhập lại mật khẩu" placeholder="Nhập lại mật khẩu">
+                            <p>Số điện thoại</p>
+                            <input type="text" name="Số điện thoại" placeholder="Số điện thoại">
+                            <p>Email</p>
+                            <input type="text" name="Email" placeholder="Email">
+                            <p>Địa chỉ</p>
+                            <input id="last-child-input" type="text" name="Địa chỉ" placeholder="Địa chỉ">
+                            <button name="Xác nhận" type="submit">Xác nhận</button>
+                        </form> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex foot">
+            <div class="foot1">
+                <img src="./images/ISO_C++_Logo.svg.png">
+            </div>
+            <div class="foot2">
+                <h1>contact us</h1>
+                <div class="flex">
+                    <i class="fa-solid fa-building"></i> Công ty TNHH NIT PROGRAM</i>
+                </div>
+                <div class="flex">
+                    <i class="fa-solid fa-house"></i> Địa chỉ: 118 Huỳnh Khương An, P. 5, Q. Gò Vấp, TP.HCM</i>
+                </div>
+                <div class="flex">
+                    <i class="fa-solid fa-phone"></i> SĐT: 0986868888</i>
+                </div>
+                <div class="flex">
+                    <i class="fa-solid fa-square-envelope"></i> Email: Nitprogram@gmail.com.vn</i>
+                </div>
+            </div>
+            <div class="foot3">
+                <h1>Nguyễn Thi Quý</h1>
+                <p>MSSV: 2151053052</p>
+                <p>Môn: Thiết kế Web</p>
+                <p>Lớp: ĐH21IT01</p>
+                <p>Giảng viên: Dương Hữu Thành</p>
+            </div>
+            <div class="foot3">
+                <h1>Đỗ Đình Nhật</h1>
+                <p>MSSV: 2151050301</p>
+                <p>Môn: Thiết kế Web</p>
+                <p>Lớp: ĐH21IT01</p>
+                <p>Giảng viên: Dương Hữu Thành</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

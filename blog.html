@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="./images/ISO_C++_Logo.svg.png">
+<link rel="stylesheet" href="./css/blog.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<title>Introduce Grogramming</title>
+</head>
+<body>
+    <div class="">   
+        <header>
+             <div class="flex nav">
+                    <nav class="menu_pc">
+                        <ul class="menu">
+                            <li><a href="index.html"><i class="fa-solid fa-house"></i>  Trang chủ</a></li>
+                            <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></i>  Lộ trình</a></li>
+                            <li><a href="#"><i class="fa-solid fa-graduation-cap"></i>  Khóa học</a></li>
+                            <li><a href="#"><i class="fa-solid fa-blog"></i>  Blog</a></li>
+                            <li><a href="#"><i class="fa-solid fa-person-chalkboard"></i>  Giảng viên</a></li>
+                            <li><a href="#"><i class="fa-solid fa-phone"></i></i>  Liên hệ</a></li>
+                        </ul>
+                    </nav>
+
+                    <label for="nav-mobile-input"  class="nav-bars">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <div class="nav_bell_search">
+                        <div class="search_mobile">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="bell_mobile">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                    </div>
+                    
+                    <input type="checkbox" hidden class="nav_input" id="nav-mobile-input">
+                    <label for="nav-mobile-input" class="nav_overlay"></label>
+
+                    <nav class="nav_mobile">
+                        <label for="nav-mobile-input" class="nav_mobile-close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+                        <ul class="nav_mobile_list">
+                            <li><a href="#"><i class="fa-solid fa-house"></i>  Trang chủ</a></li>
+                            <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></i>  Lộ trình</a></li>
+                            <li><a href="#"><i class="fa-solid fa-graduation-cap"></i>  Khóa học</a></li>
+                            <li><a href="#"><i class="fa-solid fa-blog"></i>  Blog</a></li>
+                            <li><a href="#"><i class="fa-solid fa-person-chalkboard"></i>  Giảng viên</a></li>
+                            <li><a href="#"><i class="fa-solid fa-phone"></i></i>  Liên hệ</a></li>
+                            <!-- <li><a href="#"><i style="font-size: 1.2rem;" class="fa-solid fa-bars"></i></a></li> -->
+                        </ul>
+                    </nav>
+            </div>
+        
+            <div class="flex header-sub">
+                <div class="sub">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+        
+                <div class="flex search">
+                    <input type="text" placeholder="Tìm khiếm khóa học, bài viết, video,...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+        
+                <div class="sign-in">
+                    <a href="#"><i class="fa-solid fa-user"></i> Đăng nhập/Đăng kí</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="flex bg">
+            <div class="promote1 promote-first">
+                <div class="promote2">
+                    <div id="hot">
+                        <h2>hot</h2>
+                    </div>
+                    <div class="img">
+                        <img src="./images/excel6.png" alt="Tin học cơ bản">
+                    </div>
+                    <div class="promote3">
+                        <h2>Tin học văn phòng</h2>
+                        <h1>Trở thành cao thủ Excel 365 trong 48 giờ</h1>
+                        <p>Kiến thức Excel là thứ ai cũng cần nhưng trên giảng đường có rất ít cơ hội thực hành,...</p>
+                        <h3>Giảng viên: Đỗ Đình Nhật</h3>
+                        <span style="color: red;"><h1>299.000 đ</h1></span>
+                    </div>
+                </div>
+                <div class="promote2">
+                    <div id="hot">
+                        <h2>hot</h2>
+                    </div>
+                    <div class="img">
+                        <img src="./images/pp2.png" alt="Tin học cơ bản">
+                    </div>
+                    <div class="promote3">
+                        <h2>Tin học văn phòng</h2>
+                        <h1>Trình chiếu chuyên nghiệp với Powerpoint</h1>
+                        <p>Khi có bài thuyết trình đầu tiên, học viên mới bắt đầu sử dụng Powerpoint vì vậy...</p>
+                        <h3>Giảng viên: Đỗ Đình Nhật</h3>
+                        <span style="color: red;"><h1>899.000 đ</h1></span>
+                    </div>
+                </div>
+                <div class="promote2">
+                    <div id="hot">
+                        <h2>hot</h2>
+                    </div>
+                    <div class="img">
+                        <img src="./images/word.png" alt="Tin học cơ bản">
+                    </div>
+                    <div class="promote3">
+                        <h2>Tin học văn phòng</h2>
+                        <h1>Làm chủ Word cơ bản</h1>
+                        <p>Trong các công việc văn phòng, bạn có thể dùng word để soạn thảo biên bản làm việc, báo cáo, hợp đồng. Việc thành thạo word là một lợi thế...</p>
+                        <h3>Giảng viên: Đỗ Đình Nhật</h3>
+                        <span style="color: red;"><h1>399.000 đ</h1></span>
+                    </div>
+                </div>
+                <div class="promote2">
+                    <div id="hot">
+                        <h2>hot</h2>
+                    </div>
+                    <div class="img">
+                        <img src="./images/Access.png" alt="Tin học cơ bản">
+                    </div>
+                    <div class="promote3">
+                        <h2>Tin học văn phòng</h2>
+                        <h1>Quản trị cơ sở dữ liệu cơ bản với Access</h1>
+                        <p>Access là một phần mềm mạnh mẽ, dễ sử dụng và dễ học trong lĩnh vực quản trị...</p>
+                        <h3>Giảng viên: Đỗ Đình Nhật</h3>
+                        <span style="color: red;"><h1>399.000 đ</h1></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="boxchat">
+                <div class="mychats">
+                    <div class="flex mychat">
+                        <img src="./images/acount.png" alt="acount">
+                        <h1>Đỗ Nhất Chí</h1>
+                    </div>
+                    <div class="comments1">
+                        <h1>Tìm kiếm thư viện C++</h1>
+                        <div class="flex comments">
+                            <div class="flex">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <div>
+                                    <p>2 ngày trước</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex">
+                                <i class="fa-solid fa-eye"></i>
+                                <div>
+                                    <p>10 Lượt xem</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <div>
+                                    <p>2 Bình luận</p>  
+                                </div>
+                            </div>  
+                        </div>
+    
+                        <div class="comment">
+                            <p>Cho em hỏi lúc học C++ mình có thể kham khảo đầy đủ các thư viện ở đâu để tối ưu dòng code được không ạ. Em thấy bạn em nó còn code cả mấy hàm không có trong cplusplus.com</p>
+                        </div>
+    
+                        <div class="react">
+                            <div>
+                                <h2>Bình luận</h2>
+                                <textarea name="Bình luận" cols="79" rows="5" placeholder="Trả lời bình luận tại đây..."></textarea>
+                            </div>
+                            <div class="button">
+                                <form>
+                                    <button name="Xác nhận" type="submit">Gửi</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mychats">
+                    <div class="flex mychat">
+                        <img src="./images/acount.png" alt="acount">
+                        <h1>Phan Thảo Nguyên</h1>
+                    </div>
+                    <div class="comments1">
+                        <h1>Viết lập trình C++</h1>
+                        <div class="flex comments">
+                            <div class="flex">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <div>
+                                    <p>7 ngày trước</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex">
+                                <i class="fa-solid fa-eye"></i>
+                                <div>
+                                    <p>12 Lượt xem</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <div>
+                                    <p>5 Bình luận</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="comment">
+                            <p>Viết chương trình tính tổng của 2 số a và b. a và b được nhập từ bàn phím dưới các dạng cấu trúc sau:</p>
+                            <p>1. Chương trình có 1 hàm con có sử dụng cách khai báo hàm void.</p>
+                            <p>2. Chương trình có một hàm con có sử dụng cách khai báo hàm void, có sử dụng truyền đối số cho hàm ở dạng địa chỉ.</p>
+                        </div>
+    
+                        <div class="react">
+                            <div>
+                                <h2>Bình luận</h2>
+                                <textarea name="Bình luận" cols="79" rows="5" placeholder="Trả lời bình luận tại đây..."></textarea>
+                            </div>
+                            <div class="button">
+                                <form>
+                                    <button name="Xác nhận" type="submit">Gửi</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="mychats">
+                    <div class="flex mychat">
+                        <img src="./images/acount.png" alt="acount">
+                        <h1>Trần Quốc Trung</h1>
+                    </div>
+                    <div class="comments1">
+                        <h1>Không thể dùng hàm to_string()</h1>
+                        <div class="flex comments">
+                            <div class="flex">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <div>
+                                    <p>12 ngày trước</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex">
+                                <i class="fa-solid fa-eye"></i>
+                                <div>
+                                    <p>6 Lượt xem</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <div>
+                                    <p>1 Bình luận</p>
+                                </div>
+                            </div>  
+                        </div>
+    
+                        <div class="comment">
+                            <p>Em dùng hàm to_string() trên devC (đã include string.h ) không được. Chương trình báo lỗi to_string không được khai báo. Mong anh em vào giúp 1 tay.</p>
+                        </div>
+    
+                        <div class="react">
+                            <div>
+                                <h2>Bình luận</h2>
+                                <textarea name="Bình luận" cols="78" rows="5" placeholder="Trả lời bình luận tại đây..."></textarea>
+                            </div>
+                            <div class="button">
+                                <form>
+                                    <button name="Xác nhận" type="submit">Gửi</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="mychats">
+                    <div class="flex mychat">
+                        <img src="./images/acount.png" alt="acount">
+                        <h1>Nguyễn Như Ý</h1>
+                    </div>
+                    <div class="comments1">
+                        <h1>Tìm kiếm thư viện C++</h1>
+                        <div class="flex comments">
+                            <div class="flex">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <div>
+                                    <p>15 ngày trước</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex">
+                                <i class="fa-solid fa-eye"></i>
+                                <div>
+                                    <p>9 Lượt xem</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <div>
+                                    <p>3 Bình luận</p>
+                                </div>
+                            </div>  
+                        </div>
+    
+                        <div class="comment">
+                            <p>Hãy định nghĩa cấu trúc sinh viên gồm các thông tin: mssv(mã số sinh viên), họ tên, điểm giữa kì, điểm cuối kì. Thực hiện tiếp các yêu cầu sau: <br>
+                                1. Nhập danh sách n sinh viên. Sử dụng mảng động để lưu trữ. <br>
+                                2. Đếm số lượng sinh viên phải học lại ((điểm giữa kì + cuối kì) / 2 < 5) <br>
+                                3. In ra danh sách những sinh viên có tên là "Trang" <br>
+                                4. In ra danh sách sinh viên với thông tin họ tên theo chuẩn (họ tên: ký tự đầu mỗi từ viết HOA các ký sau viết thường)</p>
+                        </div>
+    
+                        <div class="react">
+                            <div>
+                                <h2>Bình luận</h2>
+                                <textarea name="Bình luận" cols="79" rows="5" placeholder="Trả lời bình luận tại đây..."></textarea>
+                            </div>
+                            <div class="button">
+                                <form>
+                                    <button name="Xác nhận" type="submit">Gửi</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="mychats mychat1">
+                    <div class="flex mychat">
+                        <img src="./images/acount.png" alt="acount">
+                        <h1>Bạn</h1>
+                    </div>
+                    <div class="header-content">
+                        <h1>Thêm bài viết</h1>
+                        <div>
+                            <h2>Tiêu đề</h2>
+                            <input type="text" placeholder="Tiêu đề...">    
+                        </div>
+                        
+                        <div class="content-comment">
+                            <h2>Nội dung</h2>
+                            <textarea name="Bình luận" cols="79" rows="5" placeholder="Thêm câu hỏi tại đây..."></textarea>
+                        </div>
+                        <div class="button">
+                            <form>
+                                <button name="Xác nhận" type="submit">Gửi</button>
+                            </form>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="promote1">
+                <div class="promote2">
+                    <div id="hot">
+                        <h2>hot</h2>
+                    </div>
+                    <div class="img">
+                        <img src="./images/office.png" alt="Tin học cơ bản">
+                    </div>
+                    <div class="promote3">
+                        <h2>Tin học văn phòng</h2>
+                        <h1>Trọn bộ kỹ năng văn phòng thời kỳ 4.0</h1>
+                        <p>Để bắt kịp với môi trường làm việc một cách nhanh nhất dù bạn làm trong môi trường...</p>
+                        <h3>Giảng viên: Đỗ Đình Nhật</h3>
+                        <span style="color: red;"><h1>499.000 đ</h1></span>
+                    </div>
+                </div>
+                <div class="promote2">
+                    <div id="hot">
+                        <h2>hot</h2>
+                    </div>
+                    <div class="img">
+                        <img src="./images/th.png" alt="Tin học cơ bản">
+                    </div>
+                    <div class="promote3">
+                        <h2>Tin học văn phòng</h2>
+                        <h1>Làm chủ các kỹ năng tin học cơ bản</h1>
+                        <p>Bạn có biết máy tính là một phần không thể thiếu của công sở và khá lạ rằng, một trong...</p>
+                        <h3>Giảng viên: Đỗ Đình Nhật</h3>
+                        <span style="color: red;"><h1>599.000 đ</h1></span>
+                    </div>
+                </div>
+                <div class="promote2">
+                    <div id="hot">
+                        <h2>hot</h2>
+                    </div>
+                    <div class="img">
+                        <img src="./images/excel6.png" alt="Tin học cơ bản">
+                    </div>
+                    <div class="promote3">
+                        <h2>Tin học văn phòng</h2>
+                        <h1>Excel cho người đi làm</h1>
+                        <p>Excel là một công cụ hữu hiệu trong công việc mà bất cứ ai muốn tăng hiệu suất đều...</p>
+                        <h3>Giảng viên: Đỗ Đình Nhật</h3>
+                        <span style="color: red;"><h1>799.000 đ</h1></span>
+                    </div>
+                </div>
+                <div class="promote2">
+                    <div id="hot">
+                        <h2>hot</h2>
+                    </div>
+                    <div class="img">
+                        <img src="./images/mos1.png" alt="Tin học cơ bản">
+                    </div>
+                    <div class="promote3">
+                        <h2>Tin học văn phòng</h2>
+                        <h1>Luyện thi MOS</h1>    
+                        <p>Ngày nay có nhiều doanh nghiệp trong và ngoài nước quan tâm đến chứng chỉ tin học văn phòng chuẩn quốc tế MOS...</p>
+                        <h3>Giảng viên: Đỗ Đình Nhật</h3>
+                        <span style="color: red;"><h1>599.000 đ</h1></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex foot">
+        <div class="foot1">
+            <img src="./images/ISO_C++_Logo.svg.png">
+        </div>
+        <div class="foot2">
+            <h1>contact us</h1>
+            <div class="flex">
+                <i class="fa-solid fa-building"></i> Công ty TNHH NIT PROGRAM</i>
+            </div>
+            <div class="flex">
+                <i class="fa-solid fa-house"></i> Địa chỉ: 118 Huỳnh Khương An, P. 5, Q. Gò Vấp, TP.HCM</i>
+            </div>
+            <div class="flex">
+                <i class="fa-solid fa-phone"></i> SĐT: 0986868888</i>
+            </div>
+            <div class="flex">
+                <i class="fa-solid fa-square-envelope"></i> Email: Nitprogram@gmail.com.vn</i>
+            </div>
+        </div>
+        <div class="foot3">
+            <h1>Nguyễn Thi Quý</h1>
+            <p>MSSV: 2151053052</p>
+            <p>Môn: Thiết kế Web</p>
+            <p>Lớp: ĐH21IT01</p>
+            <p>Giảng viên: Dương Hữu Thành</p>
+        </div>
+        <div class="foot3">
+            <h1>Đỗ Đình Nhật</h1>
+            <p>MSSV: 2151050301</p>
+            <p>Môn: Thiết kế Web</p>
+            <p>Lớp: ĐH21IT01</p>
+            <p>Giảng viên: Dương Hữu Thành</p>
+        </div>
+    </div>
+</body>
+</html>
